@@ -15,9 +15,11 @@ pub type ino_t = ::c_ulong;
 pub type key_t = ::c_int;
 pub type major_t = ::c_uint;
 pub type minor_t = ::c_uint;
-pub type mode_t = ::c_uint;
+pub type mode_t
+    = ::c_uint;
 pub type nlink_t = ::c_uint;
-pub type rlim_t = ::c_ulong;
+pub type rlim_t
+    = ::c_ulong;
 pub type speed_t = ::c_uint;
 pub type tcflag_t = ::c_uint;
 pub type time_t = ::c_long;
